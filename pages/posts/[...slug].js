@@ -1,11 +1,11 @@
-import { UseState } from 'react'
-import { UseRouter } from 'next/router'
+import React, { useState } from 'react'
+import { useRouter } from 'next/router'
 import Image from 'next/image'
 import dea from '../../styles/dea.module.css'
 
-export default function detailPost() {
-    const router = UseRouter();
-    const [detail, setDetail] = UseState();
+export default function Detail() {
+    const router = useRouter();
+    const [detail, setDetail] = useState();
     // const { id } = router.query.id
     const id = router.query.id;
 
