@@ -1,4 +1,4 @@
-import { UseState } from 'react'
+import { useState } from 'react'
 import { UseRouter } from 'next/router'
 import Image from 'next/image'
 import dea from '../../styles/dea.module.css'
