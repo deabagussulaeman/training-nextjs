@@ -4,8 +4,8 @@ import Image from 'next/image'
 import dea from '../../styles/dea.module.css'
 
 export default function detailPost() {
-    const router = UseRouter()
-    const [detail, setDetail] = UseState()
+    const router = useRouter()
+    const [detail, setDetail] = useState()
     const { id } = router.query
 
     const CallApi = async () => {
