@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Router from 'next/router'
+import Link from 'next/link'
 
 export default function Custom404() {
     useEffect(() => {
@@ -20,9 +21,9 @@ export default function Custom404() {
     return ( 
         <div className="training-home">  
             <h1>404 - Halaman Error</h1>
-            <a type="button" href="/">
+            <Link type="button" href="/">
                 Kembali Ke Home
-            </a>
+            </Link>
         </div>
     )
 }
