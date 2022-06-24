@@ -36,6 +36,7 @@ export default function Home() {
                             <Link key={item.id} href={{
                                 pathname: `/posts/${item.id}`, 
                                 query: {
+                                    id: item.id,
                                     title: item.nama, 
                                     gender: '',  
                                     profession: '', 
