@@ -37,6 +37,7 @@ export default function Navbar() {
               left: 0;
               top: 0;
               width: 100%;
+              z-index: 100;
           }
         `}</style>
 
@@ -62,6 +63,7 @@ export default function Navbar() {
                 <li className="menu"><Link href="/ssr">SSR</Link></li>
                 <li className="menu"><Link href="/isg">ISG</Link></li>
                 <li className="menu"><Link href="/ssg">SSG</Link></li>
+                <li className="menu"><Link href="/pgsql">PGSQL</Link></li>
             </ul>
         </div>
     </div>

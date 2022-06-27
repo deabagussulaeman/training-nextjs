@@ -6,7 +6,6 @@ function Blog({ posts }) {
 
     return (
         <div> 
-            <br /><br /><br />
             <h1>Halaman SSG</h1>
             {
                 posts.meals.map(item => (

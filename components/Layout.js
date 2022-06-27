@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 export default function Layout({children, title = 'Dea Blog'}) {
   return (
-    <div>
+    <div className='bodyContainer'>
         <Head>
             <title>{title}</title>
             <meta charSet="utf-8" />

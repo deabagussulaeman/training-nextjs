@@ -31,7 +31,7 @@
     margin-top: -1px; /* Prevent double borders */
     background-color: #f6f6f6;
     padding: 10px;
-    cursor: pointer;
+    margin: auto;
 }
 
 .fltright{

@@ -22,7 +22,6 @@ function Csr() {
 
     return (
       <div> 
-        <br /><br /><br />
         <h1>Halaman CSR</h1>
         {
             data.meals.map(item => (
