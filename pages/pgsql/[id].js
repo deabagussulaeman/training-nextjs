@@ -15,19 +15,17 @@ function Page() {
         }
     })
     
-    console.log('cek cek PGSQL Detail', data)
+    console.log('cek cek Halaman pgsql/[id].js', data)
 
     if (error)   return `Error! ${error.message}`;
     if (loading) return (
         <div> 
-            <br /><br /><br />
             <h1>Loading..</h1>
         </div>
     )
 
     return (
       <div> 
-        <br /><br /><br />
         <h1>Halaman Category {data.category.name}</h1>
         <ul>
             {
@@ -37,7 +35,7 @@ function Page() {
                             {item.sku+' = '+item.name}
                         </Link>
                     </li>
-                ))
+                )) 
             }
         </ul>
       </div>

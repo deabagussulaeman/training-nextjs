@@ -6,17 +6,17 @@ function Blog({ posts }) {
     return (
         <div> 
             <h1>Halaman ISG</h1>
+            <ul>
             {
                 posts.meals.map(item => (
-                    <ul>
-                        <li>
-                            <Link key={item.id} href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
-                                {item.strMeal}
-                            </Link>
-                        </li>
-                    </ul>
+                    <li>
+                        <Link key={item.id} href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
+                            {item.strMeal}
+                        </Link>
+                    </li>
                 ))
             }
+            </ul>
         </div>
     )
 }

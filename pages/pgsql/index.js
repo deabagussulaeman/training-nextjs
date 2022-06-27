@@ -7,7 +7,7 @@ import styles from '../../styles/dea.module.css'
 
 function Page() {
     const {loading, error, data}  = useQuery(GET_CATEGORIES)
-    console.log('cek cek PGSQL', data)
+    console.log('cek cek Halaman pgsql/index.js', data)
 
     if (error)   return `Error! ${error.message}`;
     if (loading) return (

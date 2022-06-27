@@ -20,7 +20,7 @@ function Page() {
 
     const [subscribe] = useMutation(SUBSCRIBE, {
         onCompleted: (data) => {
-            console.log('Subcribe Response ', data) // the response
+            console.log('cek cek subscribe ', data) // the response
             setMutationResponse(data)
         },
     });
@@ -32,7 +32,7 @@ function Page() {
         </div>
     )
 
-    console.log('cek cek halaman produk', data);
+    console.log('cek cek Halaman pgsql/product/[sku].js', data)
     
     function handleSubscribe(event) {
         event.preventDefault();

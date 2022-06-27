@@ -8,17 +8,17 @@ function Page({ data }) {
     return (
       <div> 
         <h1>Halaman SSR</h1>
+        <ul>
         {
             data.meals.map(item => (
-                <ul>
-                    <li>
-                        <Link key={item.idMeal} href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
-                            {item.strMeal}
-                        </Link>
-                    </li>
-                </ul>
+                <li>
+                    <Link key={item.idMeal} href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
+                        {item.strMeal}
+                    </Link>
+                </li>
             ))
         }
+        </ul>
       </div>
     )
 }
