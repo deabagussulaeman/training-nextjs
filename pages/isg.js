@@ -1,6 +1,8 @@
 import Link from 'next/link'
 
 function Blog({ posts }) {
+    console.log('cek cek page isg', posts);
+
     return (
         <div> 
             <br /><br /><br />
