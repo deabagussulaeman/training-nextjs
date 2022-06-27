@@ -1,9 +1,7 @@
-import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useQuery } from '@apollo/client'
-import { GET_CATEGORY_BY_ID } from './schema'
-import Image from 'next/image'
+import { GET_CATEGORY_BY_ID } from '@/schemaPgsql/schema'
 
 function Page() {
     const router = useRouter();

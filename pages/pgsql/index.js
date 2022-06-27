@@ -1,7 +1,6 @@
-import React from 'react'
 import Link from 'next/link'
 import { useQuery } from '@apollo/client'
-import { GET_CATEGORIES } from './schema'
+import { GET_CATEGORIES } from '@/schemaPgsql/schema'
 import Image from 'next/image'
 import styles from '../../styles/dea.module.css'
 

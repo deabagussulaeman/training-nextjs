@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import parse from 'html-react-parser'
 import { useRouter } from 'next/router'
 import { useQuery, useMutation } from '@apollo/client'
-import { GET_PRODUCT_BY_SKU, SUBSCRIBE } from './schema'
+import { GET_PRODUCT_BY_SKU, SUBSCRIBE } from '@/schemaPgsql/schema'
 import Image from 'next/image'
 
 function Page() {
