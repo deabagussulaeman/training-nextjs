@@ -11,8 +11,8 @@ function Page({ data }) {
         <ul>
         {
             data.meals.map(item => (
-                <li>
-                    <Link key={item.idMeal} href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
+                <li key={item.idMeal}>
+                    <Link href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
                         {item.strMeal}
                     </Link>
                 </li>

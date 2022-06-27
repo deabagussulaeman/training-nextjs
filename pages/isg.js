@@ -9,8 +9,8 @@ function Blog({ posts }) {
             <ul>
             {
                 posts.meals.map(item => (
-                    <li>
-                        <Link key={item.id} href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
+                    <li key={item.id}>
+                        <Link  href={{pathname: `/latihan-detail/${item.idMeal}`}}>  
                             {item.strMeal}
                         </Link>
                     </li>
