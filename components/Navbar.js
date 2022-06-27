@@ -44,10 +44,10 @@ export default function Navbar() {
             <ul>
                 <li className="menu">
                     <Link href="/">
-                        Home dsfsdf
+                        Home
                     </Link>
                 </li>
-                <li className="menu">
+                {/* <li className="menu">
                     <Link href="/list">
                         Avatar List
                     </Link>
@@ -56,7 +56,12 @@ export default function Navbar() {
                     <Link href="/hooks/horror/button">
                         Horor Page
                     </Link>
-                </li>
+                </li> */}
+
+                <li className="menu"><Link href="/csr">CSR</Link></li>
+                <li className="menu"><Link href="/ssr">SSR</Link></li>
+                <li className="menu"><Link href="/isg">ISG</Link></li>
+                <li className="menu"><Link href="/ssg">SSG</Link></li>
             </ul>
         </div>
     </div>
